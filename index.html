@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div id="board"></div>
+            <div class="controls">
+                <div id="dice-container">
+                    <div id="dice">
+                        <div class="side front"></div>
+                        <div class="side back"></div>
+                        <div class="side right"></div>
+                        <div class="side left"></div>
+                        <div class="side top"></div>
+                        <div class="side bottom"></div>
+                    </div>
+                </div>
+                <button id="roll-button">Roll Dice</button>
+                <div id="player-turn"></div>
+            </div>
+            <div id="players">
+                <div class="player" id="player1"></div>
+                <div class="player" id="player2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
